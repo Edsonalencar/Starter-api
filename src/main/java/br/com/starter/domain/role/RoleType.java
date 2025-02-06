@@ -1,5 +1,8 @@
 package br.com.starter.domain.role;
 
+import lombok.Getter;
+
+@Getter
 public enum RoleType {
     ROLE_USER("USER"),
     ROLE_MANAGER("MANAGER"),
@@ -9,9 +12,5 @@ public enum RoleType {
 
     RoleType(String simpleName) {
         this.name = simpleName;
-    }
-
-    public String getName() {
-        return name;
     }
 }

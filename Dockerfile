@@ -8,7 +8,7 @@ WORKDIR /app
 COPY pom.xml ./ 
 RUN mvn dependency:go-offline
 
-# Copia todo o código-fonte do projeto e compila
+# Copia o código-fonte do projeto e compila
 COPY . .
 RUN mvn package -DskipTests
 
