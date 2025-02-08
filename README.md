@@ -2,16 +2,6 @@
   Starter API 🏂🏼
 </h1>
 
-<p align="center">
-  <a href="#-apresentacao">Apresentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-pre-configuracoes">Pré-Configurações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-estrutura-do-projeto">Estrutura do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-instalacao-e-configuracao">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-contribuicao">Contribuição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licenca">Licença</a>
-</p>
-
 ## 📌 Apresentação
 Starter-API é um projeto desenvolvido em **Spring** que implementa uma variação da **Arquitetura Limpa**, estruturando o sistema em três camadas principais: `Application`, `Domain` e `Infrastructure`. 
 
