@@ -34,6 +34,10 @@ Gerencia as configurações e integrações externas, incluindo:
 - **Conexões externas**: Integrações com APIs externas e provedores de serviço.
 - **Spring Security**: Configurações de autenticação e autorização para proteger a API.
 
+Segue um diagrama de exemplo da estrutura de pacotes proposta no template.
+
+![Descrição da Imagem](git/package_exemple.jpg)
+
 ## Tecnologias Utilizadas
 - **Java 17+**
 - **Spring Boot** (Web, Data JPA, Security, etc.)
