@@ -1,8 +1,21 @@
-# Starter-API
+<h1 align="center">
+  Starter API 🏂🏼
+</h1>
 
+<p align="center">
+  <a href="#-apresentacao">Apresentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-pre-configuracoes">Pré-Configurações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-estrutura-do-projeto">Estrutura do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalacao-e-configuracao">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contribuicao">Contribuição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licenca">Licença</a>
+</p>
+
+## 📌 Apresentação
 Starter-API é um projeto desenvolvido em **Spring** que implementa uma variação da **Arquitetura Limpa**, estruturando o sistema em três camadas principais: `Application`, `Domain` e `Infrastructure`. 
 
-## Pré-Configurações
+## ⚙️ Pré-Configurações
 O template inclui a configuração básica do Spring Security e um conjunto de entidades de relacionamento de usuário, seguindo o seguinte padrão:
 
 ![Descrição da Imagem](git/user_relation.jpg)
@@ -14,7 +27,7 @@ Também é realizada a configuração padrão dessas entidades no banco de dados
 
 As roles seguem esta sequência hierárquica.
 
-## Estrutura do Projeto
+## 🏗️ Estrutura do Projeto
 O projeto é organizado da seguinte forma:
 
 ![Descrição da Imagem](git/package_example.png)
@@ -36,14 +49,14 @@ Gerencia as configurações e integrações externas, incluindo:
 - **Conexões externas**: Integrações com APIs externas e provedores de serviço.
 - **Spring Security**: Configurações de autenticação e autorização para proteger a API.
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 - **Java 17+**
 - **Spring Boot** (Web, Data JPA, Security, etc.)
 - **PostgreSQL / MySQL** (ou outro banco de dados relacional)
 - **Flyway** (para controle de versionamento do banco de dados)
 - **Docker** (opcional, para facilitar o deploy)
 
-## Instalação e Configuração
+## 📥 Instalação e Configuração
 
 ### **1. Clonar o repositório**
 ```bash
@@ -68,7 +81,7 @@ Ou, caso esteja usando Docker Compose:
 docker-compose up -d
 ```
 
-## Contribuição
+## 🤝 Contribuição
 Se deseja contribuir com o projeto, siga estas etapas:
 1. Faça um fork do repositório.
 2. Crie uma branch com a feature desejada (`git checkout -b minha-feature`).
@@ -78,5 +91,5 @@ Se deseja contribuir com o projeto, siga estas etapas:
 
 ---
 
-## Licença
+## 📜 Licença
 Este projeto é licenciado sob a [MIT License](LICENSE).
