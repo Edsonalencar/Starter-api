@@ -17,6 +17,8 @@ As roles seguem esta sequência hierárquica.
 ## Estrutura do Projeto
 O projeto é organizado da seguinte forma:
 
+![Descrição da Imagem](git/package_example.png)
+
 ### **1. Application**
 Esta camada é responsável pela interação com os clientes da API e pela orquestração dos casos de uso. Contém:
 - **`api`**: Pacote contendo todos os controllers e endpoints da API.
@@ -33,10 +35,6 @@ Gerencia as configurações e integrações externas, incluindo:
 - **Configurações**: Propriedades do Spring Boot e beans necessários para a infraestrutura.
 - **Conexões externas**: Integrações com APIs externas e provedores de serviço.
 - **Spring Security**: Configurações de autenticação e autorização para proteger a API.
-
-Segue um diagrama de exemplo da estrutura de pacotes proposta no template.
-
-![Descrição da Imagem](git/package_exemple.jpg)
 
 ## Tecnologias Utilizadas
 - **Java 17+**
